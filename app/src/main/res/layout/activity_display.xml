@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/idTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Insert Info"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/idEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter ID"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter NAME"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/phoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter PHONE"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/ageEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter AGE"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
